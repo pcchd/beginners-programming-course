@@ -1,0 +1,41 @@
+#+title:Beginner's Programming Course
+
+Guidelines and related persistent communication for students of our Beginner's Programming Course.
+
+/Note:/ This repository is mostly empty. Please check [[id:44240650-1b3a-453a-9e51-21444c9c4e46][students section]] for forked repositories with content.
+
+** About
+
+Beginner's Programming Course is well, a programming course which introduces students (i.e anyone who want to learn) to programming. Instead of trying to teach programming in a classroom environment i.e teacher <-> student relation, we prefer teaching peer to peer. Focus is on teaching the lifestyle of programming rather than teaching a specific programming language, framework or technique.
+
+** How to join?
+
+We are a local group, so instead of trying to (join and) learn remotely, we prefer to meet and discuss stuff. All our present students (and mentors) come together and meet once a week at least.
+
+However, we do use online media for communication. Mainly this repository, and [[http://pcchd-slack.herokuapp.com][our slack channel]].
+
+** How to use this repo
+
+Students fork this repository and work on in their own fork. This work is generally filling up the notes directory with their own notes.
+
+** What this course covers
+
+Main focus of this course is [[https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/][MIT's Introduction to CS and Programming (fall 2008)]] course. However, we try to learn the ways of modern day (real world) software development. So along the way, we also learn everyday used tools like version control (git), do arbitrary projects to build confidence (and have fun), and encourage students to give talks on their favorite topics in our weekly/monthly meetups.
+
+Everything covered in this course is documented in student's notes. A general outline of topics to cover can be found in ~/notes~ directory, which contains per topic empty org files.
+
+** Notes
+
+Profession in software is a lifelong journey of learning. Instead of teaching how to do X, we try to encourage students to teach themselves the given X. So taking notes is given as much priority as the main course itself.
+
+Students can take notes in whatever format they prefer. However, [[http://orgmode.org/manual/tangle.html][org-mode]] is preferred format. We also recommend to use [[http://spacemacs.org/][Spacemacs]] for editing org files.
+
+** Students
+:PROPERTIES:
+:ID:       44240650-1b3a-453a-9e51-21444c9c4e46
+:END:
+
+Here's the list of students who are following/have followed this course (i.e student's forks of this repository):
+
+- Maninder Singh
+- Jatinder Singh
