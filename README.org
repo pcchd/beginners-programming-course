@@ -2,11 +2,14 @@
 
 Guidelines and related persistent communication for students of our Beginner's Programming Course.
 
-/Note:/ This repository is mostly empty. Please check [[id:44240650-1b3a-453a-9e51-21444c9c4e46][students section]] for forked repositories with content.
+/Note:/ This repository is contains reference material. Students are supposed to fork the master branch of this repository, and write their own notes/solutions etc.
+Reference notes/solutions are just for guiding students.
 
 ** About
 
-Beginner's Programming Course is well, a programming course which introduces students (i.e anyone who want to learn) to programming. Instead of trying to teach programming in a classroom environment i.e teacher <-> student relation, we prefer teaching peer to peer. Focus is on teaching the lifestyle of programming rather than teaching a specific programming language, framework or technique.
+Beginner's Programming Course is well, a programming course which introduces students (i.e anyone who want to learn) to programming.
+Instead of trying to teach programming in a classroom environment i.e teacher <-> student relation, we prefer teaching peer to peer.
+Focus is on teaching the lifestyle of programming rather than teaching a specific programming language, framework or technique.
 
 ** How to join?
 
@@ -29,13 +32,3 @@ Everything covered in this course is documented in student's notes. A general ou
 Profession in software is a lifelong journey of learning. Instead of teaching how to do X, we try to encourage students to teach themselves the given X. So taking notes is given as much priority as the main course itself.
 
 Students can take notes in whatever format they prefer. However, [[http://orgmode.org/manual/tangle.html][org-mode]] is preferred format. We also recommend to use [[http://spacemacs.org/][Spacemacs]] for editing org files.
-
-** Students
-:PROPERTIES:
-:ID:       44240650-1b3a-453a-9e51-21444c9c4e46
-:END:
-
-Here's the list of students who are following/have followed this course (i.e student's forks of this repository):
-
-- Maninder Singh
-- Jatinder Singh
