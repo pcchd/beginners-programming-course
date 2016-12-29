@@ -80,3 +80,79 @@
 - *Semantics of a language*
 
   says what a program means, i.e what happens when the program runs
+* Lecture 2
+:LOGBOOK:
+CLOCK: [2016-12-29 Thu 16:37]
+:END:
+- Two things needed to write programs:
+  - Representing data
+    - Value and Type
+  - Give instructions to manipulate that data
+    - Expressions: operands and operators
+** Python
+- Operators are overloaded
+  i.e same operators work on different types
+  e.g
+  #+BEGIN_SRC python
+    3 * 3
+    # 9
+
+    'as' * 3
+    # 'asasas'
+
+    'a' + 's'
+    # 'as'
+  #+END_SRC
+
+- Python *does not* automatically convert types
+  #+BEGIN_SRC python
+    3 + 's'
+    # error
+  #+END_SRC
+
+  We have to convert the types ourselves
+   #+BEGIN_SRC python
+    str(3) + 's'
+    # '3s'
+   #+END_SRC
+
+  But Python is not very strict and it is possible to make silly mistakes:
+  So we have to take care while mixing types (type discipline).
+
+- *Operator Precedence*
+  - Operators have their priority order in which they operate
+  - Use parenthesis to change the order of operators (parenthesis are executed first)
+
+- *Variables*
+
+  Variables have their own values which is given to them using ~=~ (assignment) operator e.g
+  #+BEGIN_SRC python
+  x = 4 * 3
+  #+END_SRC
+
+  Python executes the expression on right, and bind name on left to the place in memory which saves that value.
+
+- *Statements*
+  Legal commands that python can interpret. e.g print, assignment (=)
+
+- *Branching programs*
+  choose the order of instructions based on some test
+
+  Syntax:
+  #+BEGIN_SRC python
+  if <condition>:
+    <true block>:
+  else:
+    <false block>
+  #+END_SRC
+
+  - Boolean Combinations: /and/, /or/, /not/
+
+    | Input 1 | Input 2 | And   | Or    | Not(of Input 1) |
+    |---------+---------+-------+-------+-----------------|
+    | True    | True    | True  | True  | False           |
+    | True    | False   | False | True  | False           |
+    | False   | True    | False | True  | True            |
+    | False   | False   | False | False | True            |
+
+  - In Python, everything except *False, 0, None, '', [], {}* is True
