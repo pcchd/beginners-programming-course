@@ -1,0 +1,16 @@
+* Spacemacs Configuration
+
+If you don't have your own spacemacs configuration, please copy ~./spacemacs.el~ file to ~\~/.spacemacs~ to your machine. This configuration adds a few things, and configure spacemacs for Python and web development.
+
+#+BEGIN_SRC bash
+cp -f ./spacemacs.el ~/.spacemacs.el
+#+END_SRC
+
+** Other things to do
+
+To setup Python editing properly, please also execute following commands in your terminal:
+
+#+BEGIN_SRC bash
+pip install --upgrade "jedi>=0.9.0" "json-rpc>=1.8.1" "service_factory>=0.1.5"
+pip install flake8 autoflake
+#+END_SRC

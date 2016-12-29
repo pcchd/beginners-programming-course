@@ -37,5 +37,5 @@ Students can take notes in whatever format they prefer. However, [[http://orgmod
 
 Here's the list of students who are following/have followed this course (i.e student's forks of this repository):
 
-- Maninder Singh
-- Jatinder Singh
+- [[https://github.com/ManinderGharuan/beginners-programming-course][Maninder Singh]]
+- [[https://github.com/jkhabra/beginners-programming-course][Jatinder Singh]]
