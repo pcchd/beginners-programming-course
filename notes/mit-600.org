@@ -156,3 +156,39 @@ CLOCK: [2016-12-29 Thu 16:37]
     | False   | False   | False | False | True            |
 
   - In Python, everything except *False, 0, None, '', [], {}* is True
+* Lecture 3
+- Looping in Iterative Programs
+  - initialize it outside the loop
+  - setup end test (variable)
+  - construct the block of code
+    - change count variable
+  - what to do when done
+
+- Complexity of a loop depends on its input
+
+- Defensive programming
+  - If you are getting input from users, don't expect them to always provide correct input (user's mistakes)
+  - Put a lot of tests to check there are no bugs (programmer's mistakes)
+
+- Exhaustive enumeration
+  - Try all reasonable values until the solution is found
+
+- *for* loop
+
+  #+BEGIN_EXAMPLE
+  for <var> in <some collection>:
+    <block of code>
+  #+END_EXAMPLE
+
+- *Tuple*
+  - ordered sequence of elements
+  - it is immutable
+
+  #+BEGIN_SRC python
+  foo = (1, 2, 3, 4)
+  #+END_SRC
+
+- Python syntax
+  - Tuples and getting values out of them
+  - Adding tuples
+  - List slices
