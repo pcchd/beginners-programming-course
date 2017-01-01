@@ -192,3 +192,44 @@ CLOCK: [2016-12-29 Thu 16:37]
   - Tuples and getting values out of them
   - Adding tuples
   - List slices
+* Lecture 4
+- *Decomposition*
+  - a way of putting structure on code
+  - breaking the code into modules
+- *Abstraction*
+  - hide details
+- *Functions*
+  - break code into modules
+  - suppress details
+  - create "new primitives"
+  - It is a good practice to have a return at every end of the branch in a function
+  - Function is invoked by providing input in parenthesis next to function name
+- *Scope*
+  - Environment in which a variable binding is visible
+  - Functions have their own private scope
+- *Brute force algorithm*
+  - Try all possible inputs and check the result
+- *Recursion*
+  - Break the problem into simpler version of same problem, plus some steps to add their solutions to
+    make solution of the whole problem
+  - *Base case*
+    Simplest possible solution to our problem
+  - *Recursive step*
+    - break the problem into simpler version of same problem, and glue steps to combine small solutions
+
+  e.g
+  #+BEGIN_SRC python
+    def isPalindrome(string):
+      if len(string) <= 1:
+        return True
+      else:
+        return string[0] == string[-1] and isPalindrome(string[1:-1])
+  #+END_SRC
+
+  #+BEGIN_SRC python
+    def fib(x):
+        if x == 0 or x == !:
+            return 1
+        else:
+            return fib(x - 1) + fib(x - 2)
+  #+END_SRC
