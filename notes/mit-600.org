@@ -233,3 +233,28 @@ CLOCK: [2016-12-29 Thu 16:37]
         else:
             return fib(x - 1) + fib(x - 2)
   #+END_SRC
+* Lecture 5
+- *int*
+  - Integers in python are arbitrary precision
+    i.e numbers can be of any length
+  - Dealing with long integers is less efficient than dealing with small integers
+  - Very long numbers in Python are represented in "long" format
+- *float*
+  - Python uses IEEE 754 floating point scientific notation
+    - Numbers are represented in the form of ~Mentissa * Exponent~
+  - 64 bit computers allow up to 17 decimal digits of precision
+- *Successive approximation*
+  - Rough structure for all algorithms that follow this
+    - start with an initial guess
+      - Iterate for an exhaustive test
+        - if ~f(x)~ is close enough, return guess
+        - else get a better guess
+    - Throw error if above iteration didn't get an answer
+  - Bisection method
+
+    We have our solutions in sorted linear storage
+
+    - Make the middle of the list initial guess
+    - If guess < middle, do same in left
+    - If guess > middle, do same in right
+    - Repeat until there are no more items or we get the result
