@@ -258,3 +258,9 @@ CLOCK: [2016-12-29 Thu 16:37]
     - If guess < middle, do same in left
     - If guess > middle, do same in right
     - Repeat until there are no more items or we get the result
+* Lecture 6
+- /Regression Testing/
+  - Put tests for checking that program don't go backward i.e from working right to wrong after changes
+- /Speed of convergence/
+  - How fast the answer is found with bisection methods
+- Tuples and Strings are immutable in python
