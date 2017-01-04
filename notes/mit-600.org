@@ -264,3 +264,21 @@ CLOCK: [2016-12-29 Thu 16:37]
 - /Speed of convergence/
   - How fast the answer is found with bisection methods
 - Tuples and Strings are immutable in python
+* Lecture 7
+- *Dictionary*
+  - Mutable
+  - Not ordered
+  - Generalized Indexing
+  - <key,value>
+- Write pseudo-code before starting to write actual code
+- Efficiency is about choice of algorithms
+- It is hard to come up with new clever/efficient algorithms
+- We measure two things for efficiency
+  - Space
+  - Time
+- We measure efficiency as: the number of basic steps needed as a function of the input size
+  - We assume that things computer do like accessing memory, doing basic calculations take constant time
+- We measure efficiency for following cases:
+  - Best Case
+  - Worst Case
+  - Average/expected Case
