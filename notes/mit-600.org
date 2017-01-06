@@ -282,3 +282,30 @@ CLOCK: [2016-12-29 Thu 16:37]
   - Best Case
   - Worst Case
   - Average/expected Case
+* Lecture 8
+- Rate of growth of complexity as the size of the problem grows
+  - *Asymptotic notation*
+    - We ignore additive and multiplicative constants when calculating asymptotic complexity
+      i.e
+      #+BEGIN_EXAMPLE
+      4 + n = n
+      4n = n
+      #+END_EXAMPLE
+      It doesn't matter how big the constants are, we simply ignore them.
+    - *Big Oh Notation*
+      - Upper limit to the growth of a function as the input gets large
+      - Worse possible case for an algorithm
+      - Example
+        $f(x) \in O(n^2)$
+    - *Classes of complexity*
+      Since we ignore additive and multiplicative constants in asymptotic complexity, we can come up with
+      some general classes of complexity
+      - *Logarithmic*
+        When we reduce the problem size by a multiplicative factor e.g reduce it by half
+      - *Linear*
+        When we reduce the problem size by one at a time
+      - *Quadratic*
+        When we process input multiple times
+      - *Exponential*
+    - Just because an algorithm is bad in asymptotic complexity, doesn't mean it will always be bad
+      than one which is better. Asymptotic complexity tell us about /general/ case
