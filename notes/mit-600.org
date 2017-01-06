@@ -309,3 +309,7 @@ CLOCK: [2016-12-29 Thu 16:37]
       - *Exponential*
     - Just because an algorithm is bad in asymptotic complexity, doesn't mean it will always be bad
       than one which is better. Asymptotic complexity tell us about /general/ case
+* Lecture 9
+- It is not possible to sort a list in sub linear (i.e ~< n~) time.
+  Because we have to look at each element at least once
+- Best we can do to sort a list is ~n log(n)~
