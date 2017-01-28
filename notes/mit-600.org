@@ -313,3 +313,17 @@ CLOCK: [2016-12-29 Thu 16:37]
 - It is not possible to sort a list in sub linear (i.e ~< n~) time.
   Because we have to look at each element at least once
 - Best we can do to sort a list is ~n log(n)~
+* Lecture 10
+- *Divide and Conquer*
+- Split the problem into several sub problems of same type
+- solve each sub-problem independently
+- combine the solutions
+
+  - *Merge Sort*
+    - Divide list in half
+    - continue until we have single item lists
+    - merge the sorted lists
+
+- *Hashing*
+  - Constant time access to data
+  - Trade off space for time
