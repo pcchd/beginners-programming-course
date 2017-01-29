@@ -327,3 +327,16 @@ CLOCK: [2016-12-29 Thu 16:37]
 - *Hashing*
   - Constant time access to data
   - Trade off space for time
+* Lecture 11
+- *Validation*
+  Process to uncover problems and increase confidence
+- *Debugging*
+  Process of ascertaining why a program is not working
+- *Testing*
+  Process of examining input/output pairs
+  - *Unit Testing*
+    Validate each piece of the program independently e.g Functions, Classes
+  - *Integration Testing*
+    Overall validation of the whole program
+  - It is not possible to test /all/ the possibilities. So we choose a test suite
+  - A Test Suit is small enough to be feasible to run, but large enough to give some confidence
