@@ -340,3 +340,14 @@ CLOCK: [2016-12-29 Thu 16:37]
     Overall validation of the whole program
   - It is not possible to test /all/ the possibilities. So we choose a test suite
   - A Test Suit is small enough to be feasible to run, but large enough to give some confidence
+* Lecture 12
+ - Problem reduction
+   When given a problem to solve, check what similar problem have other people already solved
+ - Optimization Problems
+   Most optimization problems consists
+   - A function that needs to be maximized or minimized
+   - A set of constraints that must be respected
+   e.g Shortest path
+ - Greedy Algorithms
+   - For every step, maximize the value for that step without any consideration for future
+   - Makes locally optimum decisions
