@@ -351,3 +351,14 @@ CLOCK: [2016-12-29 Thu 16:37]
  - Greedy Algorithms
    - For every step, maximize the value for that step without any consideration for future
    - Makes locally optimum decisions
+* Lecture 13
+- *Memoization*
+  - Record a value when it is computed the first time, then reuse it when same computation need to be done again
+  - Useful to improve programs which deal with overlapping sub-problems
+    - Overlapping Sub-problems
+      When while solving a problem by recursion (i.e by dividing it into sub-problems), the sub-problems overlap i.e
+      same sub-problems need solved more than once.
+- Optimal Substructure
+  Global optimal solution  be constructed from optimal solutions to sub-problems
+- *Decision Tree*
+  Decision Tree is a binary-tree data-structure which is used to figure out outcomes of an algorithm
