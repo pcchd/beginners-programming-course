@@ -362,3 +362,17 @@ CLOCK: [2016-12-29 Thu 16:37]
   Global optimal solution  be constructed from optimal solutions to sub-problems
 - *Decision Tree*
   Decision Tree is a binary-tree data-structure which is used to figure out outcomes of an algorithm
+* Lecture 14
+- In Dynamic Programming we are trading time for space
+- Exponential problems aren't always bad. Sometimes the time can be traded for space and actual
+  implementation can be much faster
+- Dynamic Programming is broadly useful:
+  There are several /classes/ of problems which can be solved much better using dynamic programming
+- Problem Reduction:
+  Most problems can usually be reduced to a previously solved problem
+
+- Modules
+  - A module is a collection of related functions
+- *Object* is a collection of data and functions
+- *Ecapsulation* is combining data and functions together
+- A *class* is a collection of objects with characteristics in common
