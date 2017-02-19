@@ -376,3 +376,19 @@ CLOCK: [2016-12-29 Thu 16:37]
 - *Object* is a collection of data and functions
 - *Ecapsulation* is combining data and functions together
 - A *class* is a collection of objects with characteristics in common
+* Lecture 20
+- Different ways to classify simulations
+  - *Stochastic* vs *Deterministic*
+    - Stochastic: Different results on every run. There is an element of randomness in it
+    - Deterministic: Same result on every result
+  - *Static* vs *Dynamic*
+    - Static: There is no issue of time
+    - Dynamic: Looks at how things evolve over time.
+      e.g Queuing network
+  - *Discrete* vs *Continuous*
+    - Discrete: Treats things individually
+    - Continuous: Treats things like a continuous flow
+
+- Referential Statistics
+
+  A randomly chosen sample tends to exhibit the same properties as the population from which it is drawn.
